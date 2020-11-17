@@ -1,6 +1,6 @@
 import time
 import random
-
+import sys
 # flake8:noqa=E501
 class SnakesandLadder:
 
@@ -124,9 +124,9 @@ class SnakesandLadder:
 
     def inputsnakeandladder(self):
 
-        Snakes = int(input("Please enter no of snakes "))
+        Snakes = int(sys.argv[1])
 
-        ladders = int(input("Please enter no of ladders "))
+        ladders = int(sys.argv[2])
 
         temp = []
 
@@ -164,7 +164,7 @@ class SnakesandLadder:
         f1 = open("ladder.txt", "r+")  
         f1.seek(0)  
         f1.truncate()
-        self.lad={}  
+        self.lad = {}  
         self.inputsnakeandladder()
 
     def checksnakeandladder(self, snake, ladder):
