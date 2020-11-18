@@ -13,3 +13,13 @@ Welcome to Snake and Ladder Game.
       7. Board space can be changed
       8. Game continues until one players remains
       9. Three consecutive six's cancels player's chance
+
+Few basic concepts used in this code are:
+- Dictionary
+- List
+- Generating random number
+- Selecting a Random value from a list
+- Adding wait/sleep in program
+- Conditional Statements i.e. IF and ELSE
+- Getting input from text file
+-Classes
