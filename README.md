@@ -9,3 +9,7 @@ Welcome to Snake and Ladder Game.
       3. If you lands on the head of a snake, you must slide down to the bottom of the snake.
       4. The first player to get to the FINAL position is the winner.
       5. Hit enter to roll the dice.
+      6. Give number of snakes and ladders in command line
+      7. Board space can be changed
+      8. Game continues until one players remains
+      9. Three consecutive six's cancels player's chance
